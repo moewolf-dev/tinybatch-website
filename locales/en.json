@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "products": "Products",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "about": "About",
+    "login": "Login"
+  },
+  "footer": {
+    "description": "Building precision-batch tools for the modern web. Retro by design, experimental by nature.",
+    "links": "Links",
+    "social": "Connect"
+  },
+  "home": {
+    "hero": {
+      "title": "Retro Tools for Future Builders",
+      "subtitle": "A collection of tiny, powerful batch processing tools designed for efficiency and aesthetics."
+    }
+  }
+}

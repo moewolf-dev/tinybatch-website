@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-retro-bg text-retro-fg font-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-retro uppercase tracking-wider;
+  }
+}
+
+@layer components {
+  .retro-card {
+    @apply bg-white border-2 border-retro-border p-4 shadow-retro transition-all hover:-translate-x-1 hover:-translate-y-1 hover:shadow-retro-lg active:translate-x-0 active:translate-y-0 active:shadow-retro cursor-pointer;
+  }
+
+  .retro-button {
+    @apply bg-retro-accent text-white border-2 border-retro-border px-4 py-2 shadow-retro font-retro hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-retro-lg active:translate-x-0 active:translate-y-0 active:shadow-retro transition-all;
+  }
+}
+
+/* Retro CRT scanline effect (optional, can be applied to container) */
+.scanlines {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanlines::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 100, 0.03));
+  z-index: 10;
+  background-size: 100% 4px, 3px 100%;
+  pointer-events: none;
+}

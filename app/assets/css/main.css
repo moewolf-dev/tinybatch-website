@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-retro-bg: #f4ecd8;
+  --color-retro-fg: #2c2c2c;
+  --color-retro-accent: #c84b31;
+  --color-retro-border: #3c3c3c;
+
+  --font-retro: "Courier Prime", monospace;
+  --font-serif: "Crimson Text", serif;
+
+  --shadow-retro: 4px 4px 0px 0px #3c3c3c;
+  --shadow-retro-lg: 8px 8px 0px 0px #3c3c3c;
+}
+
 @layer base {
   body {
     @apply bg-retro-bg text-retro-fg font-serif;

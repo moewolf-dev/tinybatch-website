@@ -176,7 +176,7 @@
       "securityKey": "セキュリティキー"
     },
     "placeholders": {
-      "username": "user@tinybatch.dev",
+      "username": "username",
       "securityKey": "••••••••"
     },
     "authenticate": "認証する",

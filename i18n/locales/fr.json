@@ -176,7 +176,7 @@
       "securityKey": "Clé de sécurité"
     },
     "placeholders": {
-      "username": "user@tinybatch.dev",
+      "username": "username",
       "securityKey": "••••••••"
     },
     "authenticate": "AUTHENTIFIER",

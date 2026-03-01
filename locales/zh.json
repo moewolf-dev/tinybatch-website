@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "products": "产品",
+    "pricing": "定价",
+    "docs": "文档",
+    "about": "关于",
+    "login": "登录"
+  },
+  "footer": {
+    "description": "为现代 Web 打造高精度批处理工具。设计复古，理念实验。",
+    "links": "链接",
+    "social": "社交",
+    "aboutUs": "关于我们",
+    "contact": "联系我们",
+    "terms": "条款",
+    "x": "X (Twitter)",
+    "github": "GitHub",
+    "copyright": "© {year} TINYBATCH. 保留所有权利。"
+  },
+  "home": {
+    "hero": {
+      "title": "面向未来构建者的复古工具",
+      "subtitle": "一组小而强大的批处理工具，兼顾效率与美感。",
+      "explore": "探索工具"
+    },
+    "products": {
+      "launch": "启动 →",
+      "status": {
+        "stable": "稳定",
+        "beta": "测试版",
+        "experimental": "实验中",
+        "alpha": "内测"
+      },
+      "items": {
+        "imgBatch": {
+          "category": "图像",
+          "description": "在不损失质量的前提下，数秒内压缩并调整上千张图片。支持批量导出 WebP/AVIF。"
+        },
+        "dataConverter": {
+          "category": "数据",
+          "description": "面向超大 CSV 的高速流式解析器。可用自定义映射规则转换复杂数据结构。"
+        },
+        "pdfToolkit": {
+          "category": "工具",
+          "description": "即时拆分、合并、重排 PDF 页面。内置密码保护与元数据清理。"
+        },
+        "textRefactor": {
+          "category": "文本",
+          "description": "跨多文件高级模式匹配与替换。支持正则批量重命名。"
+        },
+        "apiGhost": {
+          "category": "开发工具",
+          "description": "基于 JSON Schema 生成真实感模拟数据。支持自定义 provider 与海量导出。"
+        },
+        "webScraper": {
+          "category": "网页",
+          "description": "从 HTML 中提取结构化数据。快速、轻量，适合静态站点生成。"
+        }
+      }
+    },
+    "features": {
+      "title": "为什么选择 TINYBATCH？",
+      "precise": {
+        "title": "01. 精准",
+        "description": "每个工具都只做一件事。没有冗余，只提供你真正需要的能力。"
+      },
+      "batchFirst": {
+        "title": "02. 批处理优先",
+        "description": "针对大规模数据处理优化。速度不是可选项，而是硬性要求。"
+      },
+      "localStatic": {
+        "title": "03. 本地静态",
+        "description": "隐私优先设计。多数操作都在你的浏览器内完成，数据不离开本地。"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "我们用小工具解决大问题。",
+      "quote": "“Tinybatch 诞生于对臃肿软件的厌倦。我们想做的是：只做一件事、执行够快、并保留 1994 年的审美。”"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "在 Tinybatch，我们相信软件应该可预测、可移植，也可以有一点独特气质。我们的批处理工具套件运行在现代浏览器中，同时保持早期 Web 的简洁。"
+    },
+    "stack": {
+      "title": "技术栈",
+      "description": "虽然界面风格复古，但底层基于 Nuxt 4、Vue 3 和 WebAssembly。我们将现代 Web 技术的可靠性与黄金时代的审美结合在一起。"
+    },
+    "team": {
+      "title": "团队",
+      "member": "成员 {index}",
+      "role": "架构师"
+    },
+    "cta": {
+      "title": "准备加入批处理阵营？",
+      "subtitle": "已有超过 50,000 名开发者每天在使用 Tinybatch。",
+      "button": "立即注册"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "定价方案",
+      "subtitle": "简单透明，保持复古。"
+    },
+    "mostPopular": "最受欢迎",
+    "period": {
+      "forever": "永久",
+      "month": "月"
+    },
+    "plans": {
+      "starter": {
+        "name": "入门版",
+        "features": {
+          "basicTools": "全部基础工具",
+          "communitySupport": "社区支持",
+          "localProcessing": "本地处理",
+          "commercialUse": "可商用"
+        },
+        "cta": "开始使用"
+      },
+      "professional": {
+        "name": "专业版",
+        "features": {
+          "unlimitedBatches": "无限批次",
+          "cloudStorage": "云存储（5GB）",
+          "apiAccess": "API 访问",
+          "emailSupport": "邮件支持",
+          "betaFeatures": "Beta 功能"
+        },
+        "cta": "升级专业版"
+      },
+      "studio": {
+        "name": "团队版",
+        "features": {
+          "multiUserTeams": "多用户团队",
+          "whiteLabeling": "白标能力",
+          "advancedAnalytics": "高级分析",
+          "customIntegration": "定制集成",
+          "prioritySupport": "优先支持"
+        },
+        "cta": "联系销售"
+      }
+    },
+    "table": {
+      "features": "功能",
+      "basic": "基础版",
+      "pro": "专业版",
+      "enterprise": "企业版",
+      "rows": {
+        "cloudSync": {
+          "feature": "云同步",
+          "basic": "否",
+          "pro": "是",
+          "enterprise": "是"
+        },
+        "batchLimit": {
+          "feature": "批次限制",
+          "basic": "100/天",
+          "pro": "无限",
+          "enterprise": "无限"
+        },
+        "prioritySupport": {
+          "feature": "优先支持",
+          "basic": "否",
+          "pro": "邮件",
+          "enterprise": "7x24 电话"
+        }
+      }
+    }
+  },
+  "login": {
+    "title": "访问终端",
+    "fields": {
+      "username": "用户名 / 邮箱",
+      "securityKey": "安全密钥"
+    },
+    "placeholders": {
+      "username": "user@tinybatch.dev",
+      "securityKey": "••••••••"
+    },
+    "authenticate": "认证登录",
+    "links": {
+      "forgotPassword": "忘记密码？",
+      "newUser": "新用户？"
+    },
+    "thirdParty": "第三方登录",
+    "providers": {
+      "github": "GitHub",
+      "google": "Google"
+    }
+  },
+  "account": {
+    "header": {
+      "title": "用户控制面板",
+      "loggedInAs": "当前登录：",
+      "signOut": "退出登录"
+    },
+    "sidebar": {
+      "overview": "总览",
+      "orderHistory": "订单历史",
+      "systemSettings": "系统设置"
+    },
+    "subscription": {
+      "title": "当前订阅",
+      "planLabel": "套餐",
+      "planValue": "专业版",
+      "expiresLabel": "到期时间",
+      "manage": "管理"
+    },
+    "quickTools": {
+      "title": "快捷工具",
+      "cloudBackup": "↳ 云备份：",
+      "enabled": "已启用",
+      "apiUsage": "↳ API 使用：",
+      "storage": "↳ 存储："
+    },
+    "systemStatus": {
+      "title": "系统状态",
+      "batchEngine": "批处理引擎：",
+      "online": "在线",
+      "cloudSync": "云同步：",
+      "connected": "已连接",
+      "lastLogin": "上次登录：",
+      "lastLoginValue": "2 分钟前"
+    }
+  }
+}

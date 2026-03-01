@@ -9,12 +9,220 @@
   "footer": {
     "description": "Building precision-batch tools for the modern web. Retro by design, experimental by nature.",
     "links": "Links",
-    "social": "Connect"
+    "social": "Connect",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "terms": "Terms",
+    "x": "X (Twitter)",
+    "github": "GitHub",
+    "copyright": "© {year} TINYBATCH. ALL RIGHTS RESERVED."
   },
   "home": {
     "hero": {
       "title": "Retro Tools for Future Builders",
-      "subtitle": "A collection of tiny, powerful batch processing tools designed for efficiency and aesthetics."
+      "subtitle": "A collection of tiny, powerful batch processing tools designed for efficiency and aesthetics.",
+      "explore": "EXPLORE TOOLS"
+    },
+    "products": {
+      "launch": "Launch →",
+      "status": {
+        "stable": "Stable",
+        "beta": "Beta",
+        "experimental": "Experimental",
+        "alpha": "Alpha"
+      },
+      "items": {
+        "imgBatch": {
+          "category": "Graphics",
+          "description": "Compress and resize thousands of images in seconds without losing quality. Bulk export to WebP/AVIF."
+        },
+        "dataConverter": {
+          "category": "Data",
+          "description": "Ultra-fast streaming parser for massive CSV files. Transform complex schemas with custom mapping rules."
+        },
+        "pdfToolkit": {
+          "category": "Utility",
+          "description": "Split, merge, and reorder PDF pages instantly. Password protection and metadata stripping included."
+        },
+        "textRefactor": {
+          "category": "Text",
+          "description": "Advanced pattern matching and replacement across multiple files. Batch rename files using regex."
+        },
+        "apiGhost": {
+          "category": "DevTools",
+          "description": "Generate realistic mock data from JSON schemas. Support for custom providers and massive exports."
+        },
+        "webScraper": {
+          "category": "Web",
+          "description": "Extract structured data from HTML strings. Fast, lightweight, and perfect for static site generation."
+        }
+      }
+    },
+    "features": {
+      "title": "WHY TINYBATCH?",
+      "precise": {
+        "title": "01. PRECISE",
+        "description": "Every tool is built with a single purpose. No bloat, just the functionality you need to get the job done."
+      },
+      "batchFirst": {
+        "title": "02. BATCH-FIRST",
+        "description": "Optimized for processing large volumes of data instantly. Speed is not an option, it's a requirement."
+      },
+      "localStatic": {
+        "title": "03. LOCAL-STATIC",
+        "description": "Privacy-focused by design. Most operations happen in your browser, keeping your data where it belongs."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "WE BUILD TINY THINGS FOR BIG IDEAS.",
+      "quote": "\"Tinybatch was born out of frustration with bloated software. We wanted tools that do one thing, do it fast, and look like they belong in 1994.\""
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Tinybatch, we believe software should be predictable, portable, and pretty in its own weird way. Our suite of batch tools is designed to run in modern browsers while maintaining the simplicity of the early web."
+    },
+    "stack": {
+      "title": "Our Stack",
+      "description": "While our UI screams the 90s, our engine is built on Nuxt 4, Vue 3, and WebAssembly. We combine the reliability of modern web technologies with the aesthetics of the golden age of computing."
+    },
+    "team": {
+      "title": "THE TEAM",
+      "member": "Member {index}",
+      "role": "The Architect"
+    },
+    "cta": {
+      "title": "READY TO JOIN THE BATCH?",
+      "subtitle": "Join over 50,000 developers using Tinybatch every day.",
+      "button": "SIGN UP NOW"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "PRICING PLANS",
+      "subtitle": "Simple, transparent, retro pricing."
+    },
+    "mostPopular": "Most Popular",
+    "period": {
+      "forever": "forever",
+      "month": "mo"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "features": {
+          "basicTools": "All basic tools",
+          "communitySupport": "Community support",
+          "localProcessing": "Local processing",
+          "commercialUse": "Commercial use"
+        },
+        "cta": "Get Started"
+      },
+      "professional": {
+        "name": "Professional",
+        "features": {
+          "unlimitedBatches": "Unlimited batches",
+          "cloudStorage": "Cloud storage (5GB)",
+          "apiAccess": "API Access",
+          "emailSupport": "Email support",
+          "betaFeatures": "Beta features"
+        },
+        "cta": "Go Pro"
+      },
+      "studio": {
+        "name": "Studio",
+        "features": {
+          "multiUserTeams": "Multi-user teams",
+          "whiteLabeling": "White-labeling",
+          "advancedAnalytics": "Advanced analytics",
+          "customIntegration": "Custom integration",
+          "prioritySupport": "Priority support"
+        },
+        "cta": "Contact Sales"
+      }
+    },
+    "table": {
+      "features": "Features",
+      "basic": "Basic",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "rows": {
+        "cloudSync": {
+          "feature": "Cloud Sync",
+          "basic": "No",
+          "pro": "Yes",
+          "enterprise": "Yes"
+        },
+        "batchLimit": {
+          "feature": "Batch Limit",
+          "basic": "100/day",
+          "pro": "Unlimited",
+          "enterprise": "Unlimited"
+        },
+        "prioritySupport": {
+          "feature": "Priority Support",
+          "basic": "No",
+          "pro": "Email",
+          "enterprise": "24/7 Phone"
+        }
+      }
+    }
+  },
+  "login": {
+    "title": "ACCESS TERMINAL",
+    "fields": {
+      "username": "Username / Email",
+      "securityKey": "Security Key"
+    },
+    "placeholders": {
+      "username": "user@tinybatch.dev",
+      "securityKey": "••••••••"
+    },
+    "authenticate": "AUTHENTICATE",
+    "links": {
+      "forgotPassword": "Forgot Password?",
+      "newUser": "New User?"
+    },
+    "thirdParty": "Third-Party Auth",
+    "providers": {
+      "github": "GitHub",
+      "google": "Google"
+    }
+  },
+  "account": {
+    "header": {
+      "title": "User Control Panel",
+      "loggedInAs": "Logged in as:",
+      "signOut": "Sign Out"
+    },
+    "sidebar": {
+      "overview": "Overview",
+      "orderHistory": "Order History",
+      "systemSettings": "System Settings"
+    },
+    "subscription": {
+      "title": "ACTIVE SUBSCRIPTION",
+      "planLabel": "Plan",
+      "planValue": "Professional Tier",
+      "expiresLabel": "Expires",
+      "manage": "Manage"
+    },
+    "quickTools": {
+      "title": "Quick Tools",
+      "cloudBackup": "↳ Cloud Backup:",
+      "enabled": "ENABLED",
+      "apiUsage": "↳ API Usage:",
+      "storage": "↳ Storage:"
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "batchEngine": "Batch Engine:",
+      "online": "ONLINE",
+      "cloudSync": "Cloud Sync:",
+      "connected": "CONNECTED",
+      "lastLogin": "Last Login:",
+      "lastLoginValue": "2 mins ago"
     }
   }
 }

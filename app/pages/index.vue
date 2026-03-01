@@ -10,7 +10,7 @@
       </p>
       <div class="pt-8">
         <NuxtLink to="/products" class="retro-button text-xl px-12 py-4">
-          EXPLORE TOOLS
+          {{ $t('home.hero.explore') }}
         </NuxtLink>
       </div>
     </section>
@@ -19,21 +19,21 @@
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div v-for="product in products" :key="product.id" class="retro-card flex flex-col group">
         <div class="mb-4 text-sm font-retro opacity-60 flex justify-between">
-          <span>{{ product.category }}</span>
+          <span>{{ $t(product.category) }}</span>
           <span>v{{ product.version }}</span>
         </div>
         <h3 class="text-2xl font-bold mb-3 group-hover:text-retro-accent transition-colors">
           {{ product.name }}
         </h3>
         <p class="font-serif text-lg flex-grow mb-6">
-          {{ product.description }}
+          {{ $t(product.description) }}
         </p>
         <div class="pt-4 border-t-2 border-retro-border border-dashed flex justify-between items-center">
           <span class="font-retro text-sm uppercase font-bold text-retro-accent">
-            {{ product.status }}
+            {{ $t(product.status) }}
           </span>
           <NuxtLink :to="`/products/${product.id}`" class="font-retro hover:underline text-sm uppercase">
-            Launch →
+            {{ $t('home.products.launch') }}
           </NuxtLink>
         </div>
       </div>
@@ -42,19 +42,19 @@
     <!-- Retro Feature Section -->
     <section class="bg-white border-4 border-retro-border p-12 shadow-retro transform -rotate-1">
       <div class="rotate-1 space-y-8">
-        <h2 class="text-4xl font-black text-center">WHY TINYBATCH?</h2>
+        <h2 class="text-4xl font-black text-center">{{ $t('home.features.title') }}</h2>
         <div class="grid md:grid-cols-3 gap-12 font-serif text-lg leading-relaxed">
           <div class="space-y-4">
-            <h4 class="font-retro font-bold text-retro-accent underline">01. PRECISE</h4>
-            <p>Every tool is built with a single purpose. No bloat, just the functionality you need to get the job done.</p>
+            <h4 class="font-retro font-bold text-retro-accent underline">{{ $t('home.features.precise.title') }}</h4>
+            <p>{{ $t('home.features.precise.description') }}</p>
           </div>
           <div class="space-y-4">
-            <h4 class="font-retro font-bold text-retro-accent underline">02. BATCH-FIRST</h4>
-            <p>Optimized for processing large volumes of data instantly. Speed is not an option, it's a requirement.</p>
+            <h4 class="font-retro font-bold text-retro-accent underline">{{ $t('home.features.batchFirst.title') }}</h4>
+            <p>{{ $t('home.features.batchFirst.description') }}</p>
           </div>
           <div class="space-y-4">
-            <h4 class="font-retro font-bold text-retro-accent underline">03. LOCAL-STATIC</h4>
-            <p>Privacy-focused by design. Most operations happen in your browser, keeping your data where it belongs.</p>
+            <h4 class="font-retro font-bold text-retro-accent underline">{{ $t('home.features.localStatic.title') }}</h4>
+            <p>{{ $t('home.features.localStatic.description') }}</p>
           </div>
         </div>
       </div>
@@ -67,50 +67,50 @@ const products = [
   {
     id: 'img-batch',
     name: 'IMG-OPTIMIZER',
-    category: 'Graphics',
+    category: 'home.products.items.imgBatch.category',
     version: '1.2.0',
-    description: 'Compress and resize thousands of images in seconds without losing quality. Bulk export to WebP/AVIF.',
-    status: 'Stable'
+    description: 'home.products.items.imgBatch.description',
+    status: 'home.products.status.stable'
   },
   {
     id: 'data-converter',
     name: 'CSV-TO-JSON',
-    category: 'Data',
+    category: 'home.products.items.dataConverter.category',
     version: '0.9.5',
-    description: 'Ultra-fast streaming parser for massive CSV files. Transform complex schemas with custom mapping rules.',
-    status: 'Beta'
+    description: 'home.products.items.dataConverter.description',
+    status: 'home.products.status.beta'
   },
   {
     id: 'pdf-toolkit',
     name: 'PDF-MERGER',
-    category: 'Utility',
+    category: 'home.products.items.pdfToolkit.category',
     version: '2.0.1',
-    description: 'Split, merge, and reorder PDF pages instantly. Password protection and metadata stripping included.',
-    status: 'Stable'
+    description: 'home.products.items.pdfToolkit.description',
+    status: 'home.products.status.stable'
   },
   {
     id: 'text-refactor',
     name: 'REGEX-REPLACE',
-    category: 'Text',
+    category: 'home.products.items.textRefactor.category',
     version: '1.0.0',
-    description: 'Advanced pattern matching and replacement across multiple files. Batch rename files using regex.',
-    status: 'Stable'
+    description: 'home.products.items.textRefactor.description',
+    status: 'home.products.status.stable'
   },
   {
     id: 'api-ghost',
     name: 'JSON-GHOST',
-    category: 'DevTools',
+    category: 'home.products.items.apiGhost.category',
     version: '0.8.0',
-    description: 'Generate realistic mock data from JSON schemas. Support for custom providers and massive exports.',
-    status: 'Experimental'
+    description: 'home.products.items.apiGhost.description',
+    status: 'home.products.status.experimental'
   },
   {
     id: 'web-scraper',
     name: 'QUICK-SCRAPE',
-    category: 'Web',
+    category: 'home.products.items.webScraper.category',
     version: '0.5.0',
-    description: 'Extract structured data from HTML strings. Fast, lightweight, and perfect for static site generation.',
-    status: 'Alpha'
+    description: 'home.products.items.webScraper.description',
+    status: 'home.products.status.alpha'
   }
 ]
 </script>

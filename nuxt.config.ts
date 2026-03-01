@@ -13,15 +13,18 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { code: 'en', name: 'English' },
-      { code: 'fr', name: 'Français' },
-      { code: 'es', name: 'Español' },
-      { code: 'zh', name: '简体中文' },
-      { code: 'ja', name: '日本語' },
-      { code: 'ko', name: '한국어' }
+      { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },
+      { code: 'fr', name: 'Français', language: 'fr-FR', file: 'fr.json' },
+      { code: 'es', name: 'Español', language: 'es-ES', file: 'es.json' },
+      { code: 'zh', name: '简体中文', language: 'zh-CN', file: 'zh.json' },
+      { code: 'ja', name: '日本語', language: 'ja-JP', file: 'ja.json' },
+      { code: 'ko', name: '한국어', language: 'ko-KR', file: 'ko.json' }
     ],
+    lazy: true,
+    langDir: 'locales',
     defaultLocale: 'en',
-    strategy: 'prefix_except_default'
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: false
   },
   app: {
     head: {
@@ -58,7 +61,11 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      googleAnalyticsId: process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS_ID || ''
+      googleAnalyticsId:
+        process.env.NUXT_PUBLIC_GOOGLE_ANALYTICS_ID ||
+        process.env.NUXT_GOOGLE_ANALYTICS_ID ||
+        process.env.GOOGLE_ANALYTICS_ID ||
+        ''
     }
   },
   devServer: {

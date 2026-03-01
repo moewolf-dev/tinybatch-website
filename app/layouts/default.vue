@@ -14,8 +14,8 @@
           
           <div class="flex items-center space-x-2 border-l-2 border-retro-border pl-8">
             <USelect 
-              v-model="$i18n.locale" 
-              :options="locales" 
+              v-model="locale"
+              :items="localeOptions"
               variant="none"
               class="font-retro uppercase text-sm cursor-pointer"
             />
@@ -43,26 +43,42 @@
         <div>
           <h4 class="font-bold mb-4">{{ $t('footer.links') }}</h4>
           <ul class="space-y-2">
-            <li><NuxtLink to="/about" class="hover:underline">About Us</NuxtLink></li>
-            <li><NuxtLink to="/contact" class="hover:underline">Contact</NuxtLink></li>
-            <li><NuxtLink to="/terms" class="hover:underline">Terms</NuxtLink></li>
+            <li><NuxtLink to="/about" class="hover:underline">{{ $t('footer.aboutUs') }}</NuxtLink></li>
+            <li><NuxtLink to="/contact" class="hover:underline">{{ $t('footer.contact') }}</NuxtLink></li>
+            <li><NuxtLink to="/terms" class="hover:underline">{{ $t('footer.terms') }}</NuxtLink></li>
           </ul>
         </div>
         <div>
           <h4 class="font-bold mb-4">{{ $t('footer.social') }}</h4>
           <ul class="space-y-2">
-            <li><a href="#" class="hover:underline">X (Twitter)</a></li>
-            <li><a href="#" class="hover:underline">GitHub</a></li>
+            <li><a href="#" class="hover:underline">{{ $t('footer.x') }}</a></li>
+            <li><a href="#" class="hover:underline">{{ $t('footer.github') }}</a></li>
           </ul>
         </div>
       </div>
       <div class="max-w-7xl mx-auto mt-12 pt-8 border-t-2 border-retro-border text-center font-retro text-sm">
-        © {{ new Date().getFullYear() }} TINYBATCH. ALL RIGHTS RESERVED.
+        {{ $t('footer.copyright', { year: new Date().getFullYear() }) }}
       </div>
     </footer>
   </div>
 </template>
 
 <script setup>
-const { locales } = useI18n()
+const { locale, locales } = useI18n()
+
+const localeOptions = computed(() =>
+  locales.value.map((item) => {
+    if (typeof item === 'string') {
+      return {
+        label: item.toUpperCase(),
+        value: item
+      }
+    }
+
+    return {
+      label: item.name || item.code.toUpperCase(),
+      value: item.code
+    }
+  })
+)
 </script>

@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "products": "제품",
+    "pricing": "요금",
+    "docs": "문서",
+    "about": "소개",
+    "login": "로그인"
+  },
+  "footer": {
+    "description": "현대 웹을 위한 정밀 배치 도구를 만듭니다. 레트로한 디자인, 실험적인 정신.",
+    "links": "링크",
+    "social": "소셜",
+    "aboutUs": "회사 소개",
+    "contact": "문의",
+    "terms": "약관",
+    "x": "X (Twitter)",
+    "github": "GitHub",
+    "copyright": "© {year} TINYBATCH. ALL RIGHTS RESERVED."
+  },
+  "home": {
+    "hero": {
+      "title": "미래의 빌더를 위한 레트로 도구",
+      "subtitle": "효율성과 미감을 위해 설계된 작고 강력한 배치 처리 도구 모음입니다.",
+      "explore": "도구 둘러보기"
+    },
+    "products": {
+      "launch": "실행 →",
+      "status": {
+        "stable": "안정",
+        "beta": "베타",
+        "experimental": "실험",
+        "alpha": "알파"
+      },
+      "items": {
+        "imgBatch": {
+          "category": "그래픽",
+          "description": "품질 저하 없이 수천 장의 이미지를 몇 초 만에 압축/리사이즈. WebP/AVIF 대량 내보내기 지원."
+        },
+        "dataConverter": {
+          "category": "데이터",
+          "description": "대용량 CSV를 위한 초고속 스트리밍 파서. 커스텀 매핑 규칙으로 복잡한 스키마를 변환합니다."
+        },
+        "pdfToolkit": {
+          "category": "유틸리티",
+          "description": "PDF 페이지 분할/병합/재정렬을 즉시 수행. 비밀번호 보호와 메타데이터 제거 포함."
+        },
+        "textRefactor": {
+          "category": "텍스트",
+          "description": "여러 파일에서 고급 패턴 매칭/치환. 정규식 기반 일괄 파일명 변경 지원."
+        },
+        "apiGhost": {
+          "category": "개발도구",
+          "description": "JSON 스키마에서 사실적인 목 데이터를 생성. 커스텀 프로바이더와 대량 내보내기 지원."
+        },
+        "webScraper": {
+          "category": "웹",
+          "description": "HTML에서 구조화된 데이터를 추출. 빠르고 가벼워 정적 사이트 생성에 적합합니다."
+        }
+      }
+    },
+    "features": {
+      "title": "왜 TINYBATCH인가?",
+      "precise": {
+        "title": "01. 정밀",
+        "description": "모든 도구는 단일 목적에 집중합니다. 군더더기 없이 필요한 기능만 제공합니다."
+      },
+      "batchFirst": {
+        "title": "02. 배치 우선",
+        "description": "대용량 처리를 위해 최적화되었습니다. 속도는 선택이 아니라 필수입니다."
+      },
+      "localStatic": {
+        "title": "03. 로컬-정적",
+        "description": "프라이버시 중심 설계. 대부분의 작업이 브라우저에서 수행되어 데이터가 로컬에 머뭅니다."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "작은 도구로 큰 아이디어를 만듭니다.",
+      "quote": "\"Tinybatch는 무거운 소프트웨어에 대한 불만에서 시작되었습니다. 한 가지를 빠르게 수행하고, 1994년 감성을 담은 도구를 원했습니다.\""
+    },
+    "mission": {
+      "title": "우리의 미션",
+      "description": "Tinybatch는 소프트웨어가 예측 가능하고 이식 가능하며, 독특한 미감도 가질 수 있다고 믿습니다. 우리의 배치 도구는 현대 브라우저에서 동작하면서 초기 웹의 단순함을 유지합니다."
+    },
+    "stack": {
+      "title": "기술 스택",
+      "description": "UI는 90년대 감성이지만, 엔진은 Nuxt 4, Vue 3, WebAssembly 기반입니다. 현대 웹 기술의 안정성과 황금기 컴퓨팅 미학을 결합했습니다."
+    },
+    "team": {
+      "title": "팀",
+      "member": "멤버 {index}",
+      "role": "아키텍트"
+    },
+    "cta": {
+      "title": "BATCH에 합류할 준비가 되었나요?",
+      "subtitle": "매일 50,000명 이상의 개발자가 Tinybatch를 사용합니다.",
+      "button": "지금 가입"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "요금제",
+      "subtitle": "단순하고 투명한 레트로 요금제."
+    },
+    "mostPopular": "가장 인기",
+    "period": {
+      "forever": "영구",
+      "month": "월"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "features": {
+          "basicTools": "기본 도구 전체",
+          "communitySupport": "커뮤니티 지원",
+          "localProcessing": "로컬 처리",
+          "commercialUse": "상업적 사용"
+        },
+        "cta": "시작하기"
+      },
+      "professional": {
+        "name": "Professional",
+        "features": {
+          "unlimitedBatches": "무제한 배치",
+          "cloudStorage": "클라우드 저장소 (5GB)",
+          "apiAccess": "API 접근",
+          "emailSupport": "이메일 지원",
+          "betaFeatures": "베타 기능"
+        },
+        "cta": "Pro로 업그레이드"
+      },
+      "studio": {
+        "name": "Studio",
+        "features": {
+          "multiUserTeams": "다중 사용자 팀",
+          "whiteLabeling": "화이트 라벨",
+          "advancedAnalytics": "고급 분석",
+          "customIntegration": "커스텀 연동",
+          "prioritySupport": "우선 지원"
+        },
+        "cta": "영업 문의"
+      }
+    },
+    "table": {
+      "features": "기능",
+      "basic": "Basic",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "rows": {
+        "cloudSync": {
+          "feature": "클라우드 동기화",
+          "basic": "아니오",
+          "pro": "예",
+          "enterprise": "예"
+        },
+        "batchLimit": {
+          "feature": "배치 제한",
+          "basic": "100/일",
+          "pro": "무제한",
+          "enterprise": "무제한"
+        },
+        "prioritySupport": {
+          "feature": "우선 지원",
+          "basic": "아니오",
+          "pro": "이메일",
+          "enterprise": "24/7 전화"
+        }
+      }
+    }
+  },
+  "login": {
+    "title": "터미널 접속",
+    "fields": {
+      "username": "사용자명 / 이메일",
+      "securityKey": "보안 키"
+    },
+    "placeholders": {
+      "username": "user@tinybatch.dev",
+      "securityKey": "••••••••"
+    },
+    "authenticate": "인증",
+    "links": {
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "newUser": "신규 사용자?"
+    },
+    "thirdParty": "서드파티 인증",
+    "providers": {
+      "github": "GitHub",
+      "google": "Google"
+    }
+  },
+  "account": {
+    "header": {
+      "title": "사용자 제어 패널",
+      "loggedInAs": "로그인 계정:",
+      "signOut": "로그아웃"
+    },
+    "sidebar": {
+      "overview": "개요",
+      "orderHistory": "주문 내역",
+      "systemSettings": "시스템 설정"
+    },
+    "subscription": {
+      "title": "활성 구독",
+      "planLabel": "플랜",
+      "planValue": "Professional 티어",
+      "expiresLabel": "만료일",
+      "manage": "관리"
+    },
+    "quickTools": {
+      "title": "빠른 도구",
+      "cloudBackup": "↳ 클라우드 백업:",
+      "enabled": "활성화",
+      "apiUsage": "↳ API 사용량:",
+      "storage": "↳ 저장소:"
+    },
+    "systemStatus": {
+      "title": "시스템 상태",
+      "batchEngine": "배치 엔진:",
+      "online": "온라인",
+      "cloudSync": "클라우드 동기화:",
+      "connected": "연결됨",
+      "lastLogin": "최근 로그인:",
+      "lastLoginValue": "2분 전"
+    }
+  }
+}

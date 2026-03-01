@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "products": "Productos",
+    "pricing": "Precios",
+    "docs": "Docs",
+    "about": "Acerca de",
+    "login": "Iniciar sesión"
+  },
+  "footer": {
+    "description": "Creamos herramientas batch de precisión para la web moderna. Retro por diseño, experimental por naturaleza.",
+    "links": "Enlaces",
+    "social": "Conectar",
+    "aboutUs": "Sobre nosotros",
+    "contact": "Contacto",
+    "terms": "Términos",
+    "x": "X (Twitter)",
+    "github": "GitHub",
+    "copyright": "© {year} TINYBATCH. TODOS LOS DERECHOS RESERVADOS."
+  },
+  "home": {
+    "hero": {
+      "title": "Herramientas Retro para Creadores del Futuro",
+      "subtitle": "Una colección de herramientas batch pequeñas y potentes, diseñadas para eficiencia y estética.",
+      "explore": "EXPLORAR HERRAMIENTAS"
+    },
+    "products": {
+      "launch": "Lanzar →",
+      "status": {
+        "stable": "Estable",
+        "beta": "Beta",
+        "experimental": "Experimental",
+        "alpha": "Alfa"
+      },
+      "items": {
+        "imgBatch": {
+          "category": "Gráficos",
+          "description": "Comprime y redimensiona miles de imágenes en segundos sin perder calidad. Exportación masiva a WebP/AVIF."
+        },
+        "dataConverter": {
+          "category": "Datos",
+          "description": "Parser de streaming ultrarrápido para CSV masivos. Transforma esquemas complejos con reglas personalizadas."
+        },
+        "pdfToolkit": {
+          "category": "Utilidad",
+          "description": "Divide, une y reordena páginas PDF al instante. Incluye protección por contraseña y limpieza de metadatos."
+        },
+        "textRefactor": {
+          "category": "Texto",
+          "description": "Búsqueda y reemplazo avanzado en múltiples archivos. Renombra archivos por lotes con regex."
+        },
+        "apiGhost": {
+          "category": "DevTools",
+          "description": "Genera datos simulados realistas desde esquemas JSON. Soporta proveedores personalizados y exportaciones masivas."
+        },
+        "webScraper": {
+          "category": "Web",
+          "description": "Extrae datos estructurados desde HTML. Rápido, ligero e ideal para generación de sitios estáticos."
+        }
+      }
+    },
+    "features": {
+      "title": "¿POR QUÉ TINYBATCH?",
+      "precise": {
+        "title": "01. PRECISO",
+        "description": "Cada herramienta está hecha para un único propósito. Sin relleno, solo lo necesario para terminar el trabajo."
+      },
+      "batchFirst": {
+        "title": "02. BATCH PRIMERO",
+        "description": "Optimizado para procesar grandes volúmenes al instante. La velocidad no es opcional, es un requisito."
+      },
+      "localStatic": {
+        "title": "03. LOCAL-ESTÁTICO",
+        "description": "Privacidad por diseño. La mayoría de operaciones ocurren en tu navegador, manteniendo tus datos donde pertenecen."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "CREAMOS COSAS PEQUEÑAS PARA GRANDES IDEAS.",
+      "quote": "\"Tinybatch nació de la frustración con software inflado. Queríamos herramientas que hicieran una cosa, rápido y con estilo de 1994.\""
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "En Tinybatch creemos que el software debe ser predecible, portable y bonito a su manera. Nuestra suite batch funciona en navegadores modernos manteniendo la simplicidad de la web temprana."
+    },
+    "stack": {
+      "title": "Nuestro stack",
+      "description": "Aunque nuestra UI grita los 90, el motor está construido con Nuxt 4, Vue 3 y WebAssembly. Combinamos fiabilidad moderna con estética retro."
+    },
+    "team": {
+      "title": "EL EQUIPO",
+      "member": "Miembro {index}",
+      "role": "El Arquitecto"
+    },
+    "cta": {
+      "title": "¿LISTO PARA UNIRTE AL BATCH?",
+      "subtitle": "Únete a más de 50,000 desarrolladores que usan Tinybatch cada día.",
+      "button": "REGÍSTRATE AHORA"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "PLANES DE PRECIOS",
+      "subtitle": "Precios simples, transparentes y retro."
+    },
+    "mostPopular": "Más popular",
+    "period": {
+      "forever": "para siempre",
+      "month": "mes"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "features": {
+          "basicTools": "Todas las herramientas básicas",
+          "communitySupport": "Soporte de la comunidad",
+          "localProcessing": "Procesamiento local",
+          "commercialUse": "Uso comercial"
+        },
+        "cta": "Comenzar"
+      },
+      "professional": {
+        "name": "Professional",
+        "features": {
+          "unlimitedBatches": "Lotes ilimitados",
+          "cloudStorage": "Almacenamiento en la nube (5GB)",
+          "apiAccess": "Acceso API",
+          "emailSupport": "Soporte por correo",
+          "betaFeatures": "Funciones beta"
+        },
+        "cta": "Hazte Pro"
+      },
+      "studio": {
+        "name": "Studio",
+        "features": {
+          "multiUserTeams": "Equipos multiusuario",
+          "whiteLabeling": "Marca blanca",
+          "advancedAnalytics": "Analíticas avanzadas",
+          "customIntegration": "Integración personalizada",
+          "prioritySupport": "Soporte prioritario"
+        },
+        "cta": "Contactar ventas"
+      }
+    },
+    "table": {
+      "features": "Características",
+      "basic": "Basic",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "rows": {
+        "cloudSync": {
+          "feature": "Sincronización en la nube",
+          "basic": "No",
+          "pro": "Sí",
+          "enterprise": "Sí"
+        },
+        "batchLimit": {
+          "feature": "Límite de lotes",
+          "basic": "100/día",
+          "pro": "Ilimitado",
+          "enterprise": "Ilimitado"
+        },
+        "prioritySupport": {
+          "feature": "Soporte prioritario",
+          "basic": "No",
+          "pro": "Correo",
+          "enterprise": "Teléfono 24/7"
+        }
+      }
+    }
+  },
+  "login": {
+    "title": "ACCESO TERMINAL",
+    "fields": {
+      "username": "Usuario / Correo",
+      "securityKey": "Clave de seguridad"
+    },
+    "placeholders": {
+      "username": "user@tinybatch.dev",
+      "securityKey": "••••••••"
+    },
+    "authenticate": "AUTENTICAR",
+    "links": {
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "newUser": "¿Nuevo usuario?"
+    },
+    "thirdParty": "Auth de terceros",
+    "providers": {
+      "github": "GitHub",
+      "google": "Google"
+    }
+  },
+  "account": {
+    "header": {
+      "title": "Panel de control",
+      "loggedInAs": "Conectado como:",
+      "signOut": "Cerrar sesión"
+    },
+    "sidebar": {
+      "overview": "Resumen",
+      "orderHistory": "Historial de pedidos",
+      "systemSettings": "Configuración del sistema"
+    },
+    "subscription": {
+      "title": "SUSCRIPCIÓN ACTIVA",
+      "planLabel": "Plan",
+      "planValue": "Nivel Professional",
+      "expiresLabel": "Expira",
+      "manage": "Gestionar"
+    },
+    "quickTools": {
+      "title": "Herramientas rápidas",
+      "cloudBackup": "↳ Respaldo en la nube:",
+      "enabled": "ACTIVADO",
+      "apiUsage": "↳ Uso de API:",
+      "storage": "↳ Almacenamiento:"
+    },
+    "systemStatus": {
+      "title": "Estado del sistema",
+      "batchEngine": "Motor batch:",
+      "online": "EN LÍNEA",
+      "cloudSync": "Sync en la nube:",
+      "connected": "CONECTADO",
+      "lastLogin": "Último acceso:",
+      "lastLoginValue": "hace 2 min"
+    }
+  }
+}

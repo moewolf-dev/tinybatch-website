@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "products": "製品",
+    "pricing": "料金",
+    "docs": "ドキュメント",
+    "about": "概要",
+    "login": "ログイン"
+  },
+  "footer": {
+    "description": "モダンWeb向けの高精度バッチツールを開発。レトロな見た目、実験的な精神。",
+    "links": "リンク",
+    "social": "ソーシャル",
+    "aboutUs": "私たちについて",
+    "contact": "お問い合わせ",
+    "terms": "利用規約",
+    "x": "X (Twitter)",
+    "github": "GitHub",
+    "copyright": "© {year} TINYBATCH. ALL RIGHTS RESERVED."
+  },
+  "home": {
+    "hero": {
+      "title": "未来のビルダーのためのレトロツール",
+      "subtitle": "効率と美しさを両立した、小さくて強力なバッチ処理ツール集。",
+      "explore": "ツールを探す"
+    },
+    "products": {
+      "launch": "起動 →",
+      "status": {
+        "stable": "安定版",
+        "beta": "ベータ",
+        "experimental": "実験中",
+        "alpha": "アルファ"
+      },
+      "items": {
+        "imgBatch": {
+          "category": "画像",
+          "description": "画質を維持したまま数千枚の画像を数秒で圧縮・リサイズ。WebP/AVIFへ一括書き出し。"
+        },
+        "dataConverter": {
+          "category": "データ",
+          "description": "巨大CSV向けの超高速ストリーミングパーサー。複雑なスキーマをカスタムマッピングで変換。"
+        },
+        "pdfToolkit": {
+          "category": "ユーティリティ",
+          "description": "PDFの分割・結合・並び替えを即時実行。パスワード保護とメタデータ削除にも対応。"
+        },
+        "textRefactor": {
+          "category": "テキスト",
+          "description": "複数ファイル横断の高度なパターン一致と置換。正規表現で一括リネーム。"
+        },
+        "apiGhost": {
+          "category": "開発ツール",
+          "description": "JSONスキーマからリアルなモックデータを生成。カスタムプロバイダと大量エクスポートに対応。"
+        },
+        "webScraper": {
+          "category": "Web",
+          "description": "HTMLから構造化データを抽出。高速・軽量で静的サイト生成に最適。"
+        }
+      }
+    },
+    "features": {
+      "title": "なぜ TINYBATCH？",
+      "precise": {
+        "title": "01. 正確",
+        "description": "各ツールは単一目的で設計。余計な機能を省き、必要な機能だけを提供。"
+      },
+      "batchFirst": {
+        "title": "02. バッチ優先",
+        "description": "大量データ処理に最適化。速さはオプションではなく必須要件。"
+      },
+      "localStatic": {
+        "title": "03. ローカル重視",
+        "description": "プライバシー重視の設計。多くの処理はブラウザ内で完結し、データは手元に残ります。"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "小さなツールで大きなアイデアを実現。",
+      "quote": "「Tinybatch は肥大化したソフトウェアへの不満から生まれました。1つのことを速くこなし、1994年らしさを持つツールを目指しています。」"
+    },
+    "mission": {
+      "title": "私たちの使命",
+      "description": "Tinybatch は、ソフトウェアは予測可能で、持ち運びやすく、少し変わった美しさを持てるべきだと考えています。最新ブラウザで動きつつ、初期Webのシンプルさを保つバッチツールを作っています。"
+    },
+    "stack": {
+      "title": "技術スタック",
+      "description": "UI は90年代風ですが、エンジンは Nuxt 4 / Vue 3 / WebAssembly で構築。現代技術の信頼性とレトロ美学を融合しています。"
+    },
+    "team": {
+      "title": "チーム",
+      "member": "メンバー {index}",
+      "role": "アーキテクト"
+    },
+    "cta": {
+      "title": "BATCH に参加しませんか？",
+      "subtitle": "毎日 50,000 人以上の開発者が Tinybatch を利用しています。",
+      "button": "今すぐ登録"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "料金プラン",
+      "subtitle": "シンプルで透明、そしてレトロ。"
+    },
+    "mostPopular": "最も人気",
+    "period": {
+      "forever": "永続",
+      "month": "月"
+    },
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "features": {
+          "basicTools": "基本ツールをすべて利用",
+          "communitySupport": "コミュニティサポート",
+          "localProcessing": "ローカル処理",
+          "commercialUse": "商用利用可"
+        },
+        "cta": "始める"
+      },
+      "professional": {
+        "name": "Professional",
+        "features": {
+          "unlimitedBatches": "無制限バッチ",
+          "cloudStorage": "クラウド保存 (5GB)",
+          "apiAccess": "API アクセス",
+          "emailSupport": "メールサポート",
+          "betaFeatures": "ベータ機能"
+        },
+        "cta": "Pro にする"
+      },
+      "studio": {
+        "name": "Studio",
+        "features": {
+          "multiUserTeams": "複数ユーザーチーム",
+          "whiteLabeling": "ホワイトラベル",
+          "advancedAnalytics": "高度な分析",
+          "customIntegration": "カスタム連携",
+          "prioritySupport": "優先サポート"
+        },
+        "cta": "営業に連絡"
+      }
+    },
+    "table": {
+      "features": "機能",
+      "basic": "Basic",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "rows": {
+        "cloudSync": {
+          "feature": "クラウド同期",
+          "basic": "いいえ",
+          "pro": "はい",
+          "enterprise": "はい"
+        },
+        "batchLimit": {
+          "feature": "バッチ上限",
+          "basic": "100/日",
+          "pro": "無制限",
+          "enterprise": "無制限"
+        },
+        "prioritySupport": {
+          "feature": "優先サポート",
+          "basic": "いいえ",
+          "pro": "メール",
+          "enterprise": "24時間365日電話"
+        }
+      }
+    }
+  },
+  "login": {
+    "title": "ターミナルへアクセス",
+    "fields": {
+      "username": "ユーザー名 / メール",
+      "securityKey": "セキュリティキー"
+    },
+    "placeholders": {
+      "username": "user@tinybatch.dev",
+      "securityKey": "••••••••"
+    },
+    "authenticate": "認証する",
+    "links": {
+      "forgotPassword": "パスワードを忘れた？",
+      "newUser": "新規ユーザー？"
+    },
+    "thirdParty": "外部認証",
+    "providers": {
+      "github": "GitHub",
+      "google": "Google"
+    }
+  },
+  "account": {
+    "header": {
+      "title": "ユーザーコントロールパネル",
+      "loggedInAs": "ログイン中:",
+      "signOut": "サインアウト"
+    },
+    "sidebar": {
+      "overview": "概要",
+      "orderHistory": "注文履歴",
+      "systemSettings": "システム設定"
+    },
+    "subscription": {
+      "title": "有効なサブスクリプション",
+      "planLabel": "プラン",
+      "planValue": "Professional ティア",
+      "expiresLabel": "有効期限",
+      "manage": "管理"
+    },
+    "quickTools": {
+      "title": "クイックツール",
+      "cloudBackup": "↳ クラウドバックアップ:",
+      "enabled": "有効",
+      "apiUsage": "↳ API 使用量:",
+      "storage": "↳ ストレージ:"
+    },
+    "systemStatus": {
+      "title": "システム状態",
+      "batchEngine": "バッチエンジン:",
+      "online": "オンライン",
+      "cloudSync": "クラウド同期:",
+      "connected": "接続済み",
+      "lastLogin": "最終ログイン:",
+      "lastLoginValue": "2分前"
+    }
+  }
+}
